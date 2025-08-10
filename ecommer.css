@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    
+}
+body{
+    overflow-x: hidden;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.imgnav{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+}
+.nav-item{
+    text-decoration: none;
+    
+}
+.nav-link {
+    color: black;
+    padding: 0 20px;
+    transition: 0.3s;
+}
+.navbar-toggler{
+    border: 1px solid black;
+}
+li{
+    list-style: none;
+}
+.img1{
+    display: flex;
+    
+    
+}
+.img{
+    
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.img:hover{
+    color: orange;
+
+}
+.nav-link:hover{
+    color: orange;
+    transition: 0.3s;
+
+}
+.navbar{
+    background-color: rgb(246, 242, 242);
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+   
+
+}
+#home .s{
+    color: coral;
+}
+.navbar-toggler{
+    border: none;
+}
+#menu{
+    padding: 5px;
+}
+#home{
+    background-image: url(/img/hero4.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;background-position: top center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+@media only screen and (max-width:991px) {
+    .navbar-toggler:hover{
+        background-color: coral;
+    }
+    #home{
+        width: 100%;
+        height: 100vh;
+    }
+    
+}
+.brand1{
+    display: flex;
+    justify-content: space-between;
+}
+.brandin{
+    height: 14rem;
+    width: 5rem;
+}
+
+
+
+
+
+.btn{
+    margin-top: 3rem;
+    width: 8rem;
+    padding: 0.3rem;
+    border: none;
+    color: black;
+background-color: transparent;
+    margin-left: 4rem;
+    border-bottom: 1px solid black;
+    
+    
+    
+}
+.btn:hover{
+    color: white;
+
+    border-bottom: 1px solid white;
+
+}
+.s1{
+    
+    height: 30rem;
+    width: 30rem;
+    
+    margin-left: 5px;
+}
+.bb{
+    display: flex;
+    justify-content: space-around;
+}
+.details{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+    
+  
+}
+.buy1 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+#buy .buy1:nth-child(1) .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+}
+.buy1:nth-child(2) .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.details:hover {
+    cursor: pointer;
+    background-color: rgba(243, 188, 188, 0.7);
+}
+.howbuy{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 3px;
+    
+    
+
+}
+.p1{
+    height: 30rem;
+    width: 30rem;
+    
+    margin-left: 5px;
+}
+.btn1{
+    padding: 5px;
+    width: 8rem ;
+    height: 2rem;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 80px;
+}
+.product:hover .p1{
+    opacity: 0.7;
+
+}
+.btn1{
+    background-color: coral;
+    transform: translateY(30px);
+    cursor: pointer;
+    
+    opacity: 0;
+    transition: 0.3s all;
+
+}
+.btn1:hover{
+    
+}
+.product:hover .btn1{
+    transform: translateY(0);
+    opacity: 1;
+
+}
+hr{
+    width: 30px;
+    
+    height: 3px;
+    background-color: coral;
+}
+.bgg{
+    margin-bottom: 2px;
+}
+.star i{
+    color: goldenrod;
+
+}
+.star {
+    padding: 10px 0;
+
+}
+.bt2{
+    background-color: coral;
+    
+    cursor: pointer;
+    padding: 0.4rem;
+    width: 9rem;
+    
+   
+    transition: 0.3s all;
+    border-radius: 80px;
+
+}
+#banner{
+    background-image: url(fixb.jpg);
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-attachment: fixed;
+    
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    width: 100vw;
+    
+}
+.feat{
+    margin-left: 5rem;
+}
+.p1{
+    height: 40vh;
+    width: 100%;
+}
+.product{
+    margin: 1.5rem;
+
+
+}
+.active{
+    color: coral;
+}
+
+
+
+
+
+
